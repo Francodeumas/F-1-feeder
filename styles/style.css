@@ -1,0 +1,24 @@
+#menu_bar{
+    background: url('../img/background/linen-gray.png') no-repeat;
+}
+#menulists{
+    list-style:none;
+    padding:0;
+}
+#menulists li{
+    color:#fff;
+    font-weight:bold;
+    font-family: cursive;
+    font-size:17px;
+    outline:1px solid #fff;
+    cursor: pointer;
+}
+.container-fluid{
+    padding:0;
+}
+#menulists li img{
+    padding:5px;
+}
+#menulists li span{
+    padding:7px;
+}
