@@ -24,14 +24,14 @@
          
          <div id="f1-content" class="col-md-10">
              <div class="top-content-bar">
-                 <div id="top-content-leftbar">
+                 <div id="top-content-leftbar" class="col-md-8">
                      <button id="feeder-btn">F-1 Feeder</button>
                      <button id="driver-btn">Drivers</button>
-                     <button id="teams-btn">Teams</button>
-                     <button id="races-btn">Races</button>
+                     <button id="teams-btn" style="display:none;">Teams</button>
+                     <button id="races-btn" style="display:none;">Races</button>
                  </div>
                  
-                 <div id="top-content-rightbar">
+                 <div id="top-content-rightbar" class="col-md-4">
                      <input type="text" id="search" placeholder="search"/>
                      <button>search</button>
                  </div>
@@ -39,10 +39,8 @@
              </div>
              <div class="top-content">
                  <h1>Drivers Championship</h1>
+                    <p id="tableHeading">Drivers Championship Standings - 2013</p>
                  <table class="table table-bordered table-hover">
-                  <thead>
-                      <h3>Drivers Championship Standings - 2013</h3>
-                  </thead>
                   <tbody>
                       <tr>
                           <td>1</td>
